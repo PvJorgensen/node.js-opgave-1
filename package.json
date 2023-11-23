@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "node-opgave",
+  "version": "1.0.0",
+  "description": "Dette er mit første projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PvJorgensen/node.js-opgave-1.git"
+  },
+  "keywords": [
+    "node",
+    "first"
+  ],
+  "author": "Patrik Jørgensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PvJorgensen/node.js-opgave-1/issues"
+  },
+  "homepage": "https://github.com/PvJorgensen/node.js-opgave-1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
