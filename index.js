@@ -5,15 +5,13 @@ import dotenv from 'dotenv';
 dotenv.config()
 import db from './Config/db.config.js'
 
-db.query(`SELECT title FROM song`, (err, result) => {
-    console.log(result);
-})
-
 
 const app = express()
 app.use(express.urlencoded({
     extended: true
 }))
+
+
 const port = process.env.PORT;
 
 app.use(SongRouter);
